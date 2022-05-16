@@ -1,0 +1,121 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.first-part-header {
+  background-color: #0b2c3d;
+}
+
+.first-part-header .container .row .col-4 ul li:hover a {
+  color: #ff5a3c;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.first-part-header .container .row .col-4 ul li a {
+  font-size: 14px;
+  color: white;
+}
+
+.first-part-header .container .row .col-4 ul li a i {
+  color: #ff5a3c;
+}
+
+#add-listing-btn {
+  background-color: #ff5a3c;
+  line-height: 40px;
+  font-size: 14px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#add-listing-btn:hover {
+  background-color: #8f3c2d;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0%;
+}
+
+.nav-content-size {
+  font-size: 18px;
+}
+
+.main {
+  background-image: url("https://tunatheme.com/tf/html/quarter-preview/quarter/img/bg/14.jpg");
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .container .row .col-12 ul > li i {
+  font-size: 14px;
+}
+
+.main .container .row .col-12 ul > li a > i {
+  color: #ff5a3c;
+  font-size: 16px;
+}
+
+footer .container-fluid {
+  background-color: #171b2a;
+}
+
+footer .container-fluid .container-footer {
+  margin: auto;
+  width: 90%;
+}
+
+footer .container-fluid .container-footer .row .footer-menu .col-4 ul > li {
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+footer .container-fluid .container-footer .row .footer-menu .col-4 ul > li:hover {
+  color: #ff5a3c;
+}
+
+footer .container-fluid .container-footer .row .footer-menu .col-4 ul > li:hover::before {
+  -webkit-transition: 1s;
+  transition: 1s;
+  content: "//";
+  color: #ff5a3c;
+}
+
+footer .the-end {
+  background-color: #282b38;
+}
+
+footer .the-end .privacy ul > li:hover a {
+  color: #ff5a3c;
+}
+
+footer .the-end .privacy ul > li:hover a a {
+  color: white;
+}
+
+.footer-list {
+  line-height: 45px;
+}
+
+.email form input {
+  height: 6vh;
+  margin-right: -6px;
+}
+
+.email form input:focus {
+  border: 1px solid #ff5a3c;
+}
+
+.email form .email-btn button {
+  background-color: #ff5a3c;
+  border: none;
+  height: 6vh;
+}
+/*# sourceMappingURL=style.css.map */
